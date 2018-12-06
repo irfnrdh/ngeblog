@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Long Haul
+title: Ngeblog itu Apa?
 ---
 
 <div class="post">

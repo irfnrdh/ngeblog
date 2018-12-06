@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Akungeblog
+description: Apa Aja!
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://akungeblog.com/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,9 +20,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: irfnrdh
+   twitter: irfnrdh
+   facebook: irfnrdh
+   email: irfnrdh@gmail.com
 
 google_analytics: "UA-58263416-1"
