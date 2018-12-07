@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Dataset"
+date:   2018-12-8
+---
+
+<p class="intro"><span class="dropcap">D</span>ataset adalah bagian terpenting sebelum melakukan pengolahan data ataupun analisis terhadap data yang akan dicari sesuatu tujuan tertentu sehingga dihasilkan sebuah informasi yang sangat berguna dari data tersebut.</p>
+
+Faktanya setiap hari kita menghasilkan berjuta data dan akhirnya dari banyaknya data tersebut hanya sampah jika tanpa diolah menghasilkan sebuah informasi baru. 
+
+Sekarang jamannya big data yang artinya data mulai di sebar luaskan dengan Open Data. dan berikut ada beberapa referensi dataset yang dapat kamu gunakan untuk menjelajahi data sehingga kamu menemukan informasi yang baru. 
+
+Tidak hanya itu, dataset ini berguna dalam pengimplementasian machine learning. berikut listnya :
+
+- https://www.kaggle.com/datasets
+- https://data.go.id/dataset
+- https://data.world/datasets/indonesia
+- http://data.jakarta.go.id/dataset
+- https://knoema.com/atlas/topics/Indonesia/datasets
+- https://datahub.io/JemputData/wikidpr_scrape
