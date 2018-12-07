@@ -17,6 +17,7 @@ Karena windowslah Visual Basic .Net dipelajari dan berikut ada beberapa list ref
 - https://docs.microsoft.com/en-us/dotnet/visual-basic/
 - http://howtostartprogramming.com/vb-net/
 - https://www.vbtutor.net/index.php/visual-basic-net-tutorials/
+
 #Indonesia :
 - http://blog.belajarvb.com/
 - https://www.konsultasivb.com/
@@ -31,9 +32,9 @@ Karena windowslah Visual Basic .Net dipelajari dan berikut ada beberapa list ref
 - https://www.youtube.com/watch?v=AJpTbPasJqI&list=PLS1QulWo1RIYLpgVN_CpXbkOQoYJTItzg
 - https://www.youtube.com/watch?v=hkcO_M9gcNw&list=PL42055376AE25291E
 - https://www.youtube.com/results?search_query=vb.net&sp=EgIQAw%253D%253D
+
 #Indonesia :
 - https://www.youtube.com/watch?v=6OyKNvrwKM4&list=PLJ301sdO1jMgcS1slta8yJeRF7U24QX_d 
---> UI dan UX
 - https://www.youtube.com/watch?v=znANTJNf8wI 
 - https://www.youtube.com/watch?v=7rg52PKrNL0
 - https://www.youtube.com/watch?v=dRxGeGvqsJg
@@ -43,5 +44,6 @@ Karena windowslah Visual Basic .Net dipelajari dan berikut ada beberapa list ref
 ## EBOOK
 #INDONESIA
 - https://www.academia.edu/20079474/Tutorial_Gratis_VB_Net_Paling_Lengkap 
+
 #INGGRIS
 - http://www.kciti.edu/wp-content/uploads/2017/07/vb.net_tutorial.pdf 
