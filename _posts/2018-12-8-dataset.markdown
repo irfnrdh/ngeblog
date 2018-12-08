@@ -13,10 +13,6 @@ Sekarang Zamannya Big Data yang artinya data mulai disebar luaskan dengan Open D
 #Apa itu Data ?
 Data adalah fakta atau bagian dari fakta yang mengandung arti yang dihubungkan dengan kenyataan melalui angka, huruf, kata, gambar, atau simbol yang menunjukkan kondisi atau situasi dan “dataset” atau kumpulan data merujuk data yang terepresentasikan dalam bentuk tabular maupun non-tabular yang pada dasarnya dalam situs dapat diunduh, divisualisasikan, ditautkan, atau diproses kembali dengan berbagai metode digital lainnya.
 
-6. Data.Gov
-
-[Datasets Data.gov Indonesia]: https://catalog.data.gov/dataset?q=Indonesia&sort=views_recent+desc&as_sfid=AAAAAAXdgKHWtMUbunSzOyROvZi_vuhX-_n0uZeDjLalz12i9TZPetqud_B0W_KaRUe9s3Vvsn6hV60-jF8cdzWhfXpBtpw3LTCTVZXV9Gto5F_khwJrEnT2GrGuwdys94OEa4A%3D&as_fid=f2eda0633aa46cbee9efa926f5cf794e79c716f6&ext_location=&ext_bbox=&ext_prev_extent=-142.03125%2C2.4601811810210052%2C-59.0625%2C58.63121664342478
-
 #Apa itu Open Data?
 Data terbuka atau open data adalah data yang memiliki kaidah “terbuka”, dapat digunakan secara bebas, dimanfaatkan, dan didistribusikan kembali oleh siapapun tanpa syarat kecuali dengan mengutip sumber, pemilik data. Definisi ini adalah definisi umum yang disadur dari Open Data Handbook yang dikeluarkan oleh OKFN (Open Knowledge Foundation Network). Anda bisa merujuk pada definisi lengkapnya di sini: [Open Data Handbook]:http://opendatahandbook.org/en/what-is-open-data/
 
@@ -45,22 +41,22 @@ data.world adalah sebuah web katalog pintar untuk data dan analisis. kamu dapat 
 
 [Datasets Data World Indonesia]: https://data.world/datasets/indonesia
 
-3. [Knoema]: http://knoema.com/
+4. [Knoema]: http://knoema.com/
 Knoema adalah sebuah web untuk pengambilan keputusan. kerennya di Knoema adalah dapat memvisualisasikan data yang ada dengan menentukan sendiri hal-hal yang diperlukan. Terdapat beberapa produk untuk akses gratis, profesional dan enterprise. kamu harus daftar dan login terlebih dahulu untuk lebih jelasnya pada web knoema ini.
 
 [Knoema Datasets Indonesia]: http://knoema.com/atlas/topics/Indonesia/
 
-4. [Datahub.io]: https://datahub.io/
+5. [Datahub.io]: https://datahub.io/
 Datahub adalah web tentang publikasi data. kekurangannya adalah masih sedikit tersedianya data disini untuk akses yang gratis.
 
 [Datahub.io Datasets Indonesia]:https://datahub.io/search?q=Indonesia
 
-5. Information & Computer Science, Universitas of California (UCI)
+6. Information & Computer Science, Universitas of California (UCI)
 UCI adalah sebuah kampus di irvine, california. Pada UCI terdapat fakultas Informasi dan Ilmu Komputer yang memberikan datasets secara gratis untuk penelitian dan pembelajaran pada bidang data science dan machine learning.
 
 [Datasets UCI Machine Learning Repository]:https://archive.ics.uci.edu/ml/datasets.html
 
-6. Data.Gov
+7. Data.Gov
 
 Data.gov adalah web referensi untuk pencarian data dalam penelitian, pengembangan dan memvisualisasikan data. Data.gov dikelola oleh U.S. General Services Administration, United States of America.
 
