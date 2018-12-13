@@ -4,7 +4,7 @@ description: Apa Aja!
 url: http://akungeblog.com/
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: blog/:title/
+permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
@@ -26,3 +26,5 @@ social:
    email: irfnrdh@gmail.com
 
 google_analytics: "UA-58263416-1"
+
+

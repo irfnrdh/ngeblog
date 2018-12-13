@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Belajar Visual Basic .Net"
-date:   2018-12-8
+date:   2018-12-8 15:12:11 -0000
+categories: belajar
 ---
 
 <p class="intro"><span class="dropcap">V</span>isual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.</p>
