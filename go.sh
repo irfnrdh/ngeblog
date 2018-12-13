@@ -1,2 +1,2 @@
-git add -u && git add . && git commit -m "-_-"  && git pull origin master && git push origin master
+git add -u && git add . && git commit -m "Up"  && git pull origin master && git push origin master
 
