@@ -5,6 +5,7 @@ url: http://akungeblog.com/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: /:title/
+permalink: /404.md
 
 markdown: kramdown
 highlighter: rouge
