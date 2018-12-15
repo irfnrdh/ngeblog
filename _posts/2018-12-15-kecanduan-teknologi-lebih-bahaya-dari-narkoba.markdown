@@ -61,9 +61,10 @@ Contohnya adalah Awalnya penasaran dengan Blog, terus buat blog, lalu buat serve
 
 "BLACKHAT" vs "BLACKMARKET"
 
-itu adalah dunia gelap diteknologi. dengan pensaran itu kamu bisa saja membobol internet banking, menjual software bajakan, reupload video di youtube, mengcopas dengan mudah artikel-artikel diblog oranglain tanpa ada peletakan sumber. itulah sebahagian kecilnya.
+itu adalah dunia gelap diteknologi. dengan penasaran itu kamu bisa saja membobol internet banking, menjual software bajakan, reupload video di youtube, mengcopas dengan mudah artikel-artikel diblog oranglain tanpa ada peletakan sumber. itulah sebahagian kecilnya.
 
-Sepertinya saya sudah tidak didunia gelap lagi. karena itu lebih berbahaya dari narkoba. dengan teknologi akan meningkatkan dopamine kamu.
+saya sudah mencoba dan tidak didunia gelap lagi. karena itu lebih berbahaya dari narkoba. dengan teknologi akan meningkatkan dopamine kamu.
+
 semakin digunakan, semakin ketagihan.
 
 orang-orang rela duduk berjam-jam hanya demi mencari wifi gratis dan scroll-scroll tanpa ada tujuan yang jelas. tapi tidak semuanya juga sih.
