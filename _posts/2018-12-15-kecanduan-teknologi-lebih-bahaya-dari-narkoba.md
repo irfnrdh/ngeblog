@@ -2,13 +2,13 @@
 layout: post
 title:  "Kecanduan Teknologi Lebih Bahaya Dari Narkoba"
 date:   2018-12-15 20:40:00 −0610+10648 
-author: john
+author: irfnrdh
 categories: [ belajar ]
 image: assets/images/3.jpg
 featured: true
 ---
 
-<p class="intro"><span class="dropcap">E</span>ra digital sungguh berkembang dengan cepat. Dulu sekitaran tahun 2008 saya masih ingat sekali bahwa di Indonesia, kususnya sekitaran aceh dan sumatera utara masih sedikit dan terbatas untuk akses internet.</p>
+Era digital sungguh berkembang dengan cepat. Dulu sekitaran tahun 2008 saya masih ingat sekali bahwa di Indonesia, kususnya sekitaran aceh dan sumatera utara masih sedikit dan terbatas untuk akses internet.
 
 Bahkan untuk warung internet bisa dihitung dengan jari saja. perkembangan saat itu masih hebohnya dengan sistem operasi symbian di handphone-handphone setip orang. Dan Saya ingat sekali juga betapa bahagianya ketika pertama sekali berhasil mengakses internet menggunakan handphone pada jaringan GPRS. 
 
