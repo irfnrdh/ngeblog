@@ -37,7 +37,8 @@ plugins:
   - jekyll-archives
   - jekyll-feed
   - jekyll-toc
-    
+  - jekyll-seo-tag  
+  
 # Archives
 jekyll-archives:
   enabled: []
