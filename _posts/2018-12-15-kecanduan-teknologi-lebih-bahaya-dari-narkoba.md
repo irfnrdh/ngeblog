@@ -2,7 +2,7 @@
 layout: post
 title:  "Kecanduan Teknologi Lebih Bahaya Dari Narkoba"
 date:   2018-12-15 20:40:00 −0610+10648 
-author: irnfrdh
+author: john
 categories: [ belajar ]
 image: assets/images/3.jpg
 featured: true
