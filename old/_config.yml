@@ -1,0 +1,31 @@
+title: Akungeblog
+description: Apa Aja!
+
+url: http://akungeblog.com/
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: /:title/
+
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: irfnrdh
+   twitter: irfnrdh
+   facebook: irfnrdh
+   email: irfnrdh@gmail.com
+
+google_analytics: "UA-58263416-1"
+
+
