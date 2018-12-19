@@ -35,13 +35,18 @@ authors:
 plugins: 
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-feed
+  - jekyll-toc
     
 # Archives
 jekyll-archives:
-  enabled:
-    - categories
+  enabled: []
   layout: archive
   permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
     category: '/category/:name/'
     
 # Other
