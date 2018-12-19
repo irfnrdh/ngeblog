@@ -15,6 +15,9 @@ If you've gotten pretty comfortable with writing in Markdown, then you may enjoy
 As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
 
 
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 ## Special formatting
 
 As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
