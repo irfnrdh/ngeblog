@@ -53,5 +53,3 @@ jekyll-archives:
 markdown: kramdown
 highlighter: rouge
 
-kramdown:
-  parse_block_html: true
