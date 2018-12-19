@@ -47,8 +47,9 @@ post_class: post-template
 			<!-- Post Content -->
 			<div class="article-post">
 				<!-- TOC -->
-				{{ content | toc }}
-				{{ toc_only }}
+				  {% if page.toc %}
+				  {{ content | toc }}
+				  {% endif %}
 				<!-- End TOC -->
 				{{content}}
                 <div class="clearfix"></div>
