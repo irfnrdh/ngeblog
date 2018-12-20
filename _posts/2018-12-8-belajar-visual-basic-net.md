@@ -2,7 +2,7 @@
 layout: post
 title:  "Belajar Visual Basic .Net"
 date:   2018-12-8 15:12:11 −0610+10648 
-author: ind
+author: maverick
 categories: [ belajar ]
 image: assets/images/1.jpg
 featured: true

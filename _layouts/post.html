@@ -37,21 +37,12 @@ post_class: post-template
                 
                 <!-- Post Title -->
 				<h1 class="posttitle">{{ page.title }}</h1> 
-                
-				<span class="read-time" title="Estimated read time">
-  <svg id="i-clock" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" 
-  stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="14" /><path d="M16 8 L16 16 20 20" /></svg>       
 
-  {% assign words = content | number_of_words %}
-  {% if words < 360 %}
-    1 min read.
-  {% else %}
-    {{ words | divided_by:180 }} mins read.
-  {% endif %}
-</span>
-<style>
-    svg#i-clock {vertical-align: middle;}
-</style>
+				 {% include reading-time.html %}   
+
+                 {{ post | tags }}
+
+
 					
 			</div>
 
@@ -61,32 +52,6 @@ post_class: post-template
 
 			<!-- Post Content -->
 			<div class="article-post">
-				<!-- TOC -->
-				  {% if page.toc %}
-				  {{ content | toc }}
-				  {% endif %}
-				* Do not remove this line (it will not be displayed)
-{:toc}
-				<div id="toc"></div>
-
-
-<style>
-#markdown-toc::before {
-    content: "Contents";
-    font-weight: bold;
-}
-#markdown-toc ul {
-    list-style: decimal;
-}
-#markdown-toc {
-    border: 1px solid #aaa;
-    padding: 1.5em;
-    list-style: decimal;
-    display: inline-block;
-}
-</style>
-				
-				<!-- End TOC -->
 				{{content}}
                 <div class="clearfix"></div>
 			</div>
@@ -138,8 +103,8 @@ post_class: post-template
             <section>
             <div id="comments">
 		
-		{% include disqus-lazy-load.html %} 
-                <!--{% include disqus.html %}--> 
+		
+                {% include disqus.html %}
 		    
 		   
             </div>

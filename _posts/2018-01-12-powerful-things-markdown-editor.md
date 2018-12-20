@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Powerful things you can do with the Markdown editor"
-author: sal
+author: maverick
 categories: [ Jekyll, tutorial ]
 image: assets/images/4.jpg
-featured: true
+tags: feminism anti-capitalism witchcraft
 ---
 There are lots of powerful things you can do with the Markdown editor
 

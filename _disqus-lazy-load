@@ -1,9 +1,3 @@
-<!-- 
-     Before you implement this Jekyll Snippet make sure
-     1. to thank css-tricks.com
-     2. define "disqus: DISQUS-SHORTNAME" in _config.yml file.
--->
-
 <div class="disqus"></div>
 <div class="disqus-loading">Loading comments&hellip;</div>
 <style>

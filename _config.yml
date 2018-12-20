@@ -1,8 +1,8 @@
 # Site
 name: AkuNgeblog
-description: Apa Aja!
-meta_description: "Berbagi Kebaikan Bersama AkuNgeblog."
-logo: 'assets/images/logo.png'
+description: Berbagi Kebaikan & Motivasi
+meta_description: "Berbagi Kebaikan & Motivasi"
+logo: 'assets/images/logo-akungeblog.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: 
@@ -29,9 +29,9 @@ authors:
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
     description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
+  maverick:
+    name: maverick
+    display_name: maverick
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
@@ -45,6 +45,7 @@ plugins:
   - jekyll-feed
   - jekyll-toc
   - jekyll-seo-tag  
+
   
 # Archives
 jekyll-archives:
@@ -56,7 +57,26 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
-    
+
+permalinks:
+  year: '/archives/year/:year/'
+  month: '/archives/month/:year-:month/'
+  tag: '/archives/tag/:name/'
+
+# Tagline
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+
+ignored_tags: [tags,to,ignore]
+tag_permalink_style: pretty
+
+tag_page_data:
+  sitemap: false
+
+
 # Other
 markdown: kramdown
 highlighter: rouge
@@ -64,7 +84,7 @@ highlighter: rouge
 #optimization
 #compress.html
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  #clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
   comments: ["<!-- ", " -->"]
   endings: [all]
   ignore:

@@ -2,10 +2,11 @@
 layout: post
 title:  "Powerful things you can do with the Markdown editor"
 toc: true
-author: sal
+author: irfnrdh
 categories: [ Jekyll, tutorial ]
 image: assets/images/4.jpg
 featured: false
+tags: jekyll blog github-page
 
 ---
 There are lots of powerful things you can do with the Markdown editor
@@ -42,6 +43,8 @@ If you want to get really fancy, you can even add syntax highlighting using Roug
 
 
 ![walking]({{ site.baseurl }}/assets/images/3.jpg)
+
+# Loving:
 
 ## Reference lists
 

@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Is Intelligence Enough"
-author: sal
+author: irfnrdh
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
+tags: feminism anti-capitalism witchcraft
 ---
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 
 
