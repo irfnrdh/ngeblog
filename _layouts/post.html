@@ -8,19 +8,13 @@ post_class: post-template
 <!-- Begin Article
 ================================================== -->
 
-	<div class="row">
+    <div class="row">
 
-		<!-- Sidebar -->
-        <div class="col-sm-4">
-        {% include sidebar.html %}
-        </div>
-		
-
-		<!-- Post -->        
+        <!-- Post -->        
         {% assign author = site.authors[page.author] %}
         
-		<div class="col-sm-8">
-			<div class="mainheading">              
+        <div class="col-md-8 col-lg-8">
+            <div class="mainheading">              
                 
                 <!-- Post Categories -->
                 <div class="after-post-tags">
@@ -36,25 +30,19 @@ post_class: post-template
                 <!-- End Categories -->
                 
                 <!-- Post Title -->
-				<h1 class="posttitle">{{ page.title }}</h1> 
+                <h1 class="posttitle">{{ page.title }}</h1> 
+                {% include reading-time.html %}       
+            </div>
 
-				 {% include reading-time.html %}   
+            <!-- Post Featured Image -->
+            {% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+            <!-- End Featured Image -->
 
-                 {{ post | tags }}
-
-
-					
-			</div>
-
-			<!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
-			<!-- End Featured Image -->
-
-			<!-- Post Content -->
-			<div class="article-post">
-				{{content}}
+            <!-- Post Content -->
+            <div class="article-post">
+                {{content}}
                 <div class="clearfix"></div>
-			</div>
+            </div>
 
             <!-- Post Date -->
             <p>
@@ -66,7 +54,7 @@ post_class: post-template
                 </small>
             </p>
             
-			
+            
             
             <!-- Prev/Next -->
             <div class="row PageNavigation mt-4 prevnextlinks">
@@ -85,41 +73,40 @@ post_class: post-template
             
             
              <!-- Author Box -->
-                {% if page.author %}				
-				<div class="row post-top-meta">
-					<div class="col-md-2">
-						<img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
-					</div>
-					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-						<span class="author-description">{{ author.description }}</span>						
-					</div>
-				</div>				
+                {% if page.author %}                
+                <div class="row post-top-meta">
+                    <div class="col-md-2">
+                        <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                    </div>
+                    <div class="col-md-10">
+                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                        <span class="author-description">{{ author.description }}</span>                        
+                    </div>
+                </div>              
                 {% endif %}
             
             
             <!-- Begin Comments
             ================================================== -->
             <section>
-            <div id="comments">
-		
-		
-                {% include disqus.html %}
-		    
-		   
+            <div id="comments">                          
+                {% include disqus.html %} 
             </div>
             </section>
             <!--End Comments
             ================================================== -->
             
-            
-
-		</div>
-		<!-- End Post -->
+        </div>
+        <!-- End Post -->
         
-        
+        <!-- Right Sidebar -->
+        <div class="col-md-4 col-lg-4">
+        <div class="sidebar-right">
+        {% include sidebar.html %}
+        </div>
+        </div>
 
-	</div>
+    </div>
 
 <!-- End Article
 ================================================== -->

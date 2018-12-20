@@ -8,7 +8,7 @@ image: assets/images/1.jpg
 featured: true
 
 ---
-<p class="intro"><span class="dropcap">V</span>isual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.</p>
+Visual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.</p>
 
 Perkembangan VB akhirnya menjadi dot net yang dikenal dengan VB.Net mulai sedikit diminati akhir-akhir ini. namun faktanya dikampus VB.net ini masih dipelajari karena mayoritas penduduk Indonesia adalah pengguna Windows. 
 

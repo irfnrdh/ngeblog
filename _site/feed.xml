@@ -5,8 +5,8 @@
     <description>Apa Aja!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Dec 2018 00:50:13 +0700</pubDate>
-    <lastBuildDate>Fri, 21 Dec 2018 00:50:13 +0700</lastBuildDate>
+    <pubDate>Fri, 21 Dec 2018 01:00:25 +0700</pubDate>
+    <lastBuildDate>Fri, 21 Dec 2018 01:00:25 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -177,7 +177,22 @@ karena orang yang kecanduan teknologi beda tipis loh dengan kecanduan narkoba. :
     
       <item>
         <title>Open Dataset Indonesia dan Global untuk Data Mining dengan Machine Learning di Python</title>
-        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;D&lt;/span&gt;ataset adalah bagian terpenting sebelum melakukan pengolahan data ataupun analisis terhadap data yang akan dicari sesuatu tujuan tertentu sehingga dengan suatu proses tertentu dengan motode tertentu dapat dihasilkan sebuah informasi yang sangat berguna dari data sets tersebut.&lt;/p&gt;
+        <description>&lt;p&gt;Dataset adalah bagian terpenting sebelum melakukan pengolahan data ataupun analisis terhadap data yang akan dicari sesuatu tujuan tertentu sehingga dengan suatu proses tertentu dengan motode tertentu dapat dihasilkan sebuah informasi yang sangat berguna dari data sets tersebut.&amp;lt;/p&amp;gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#apa-itu-data-&quot; id=&quot;markdown-toc-apa-itu-data-&quot;&gt;Apa itu Data ?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#apa-itu-open-data&quot; id=&quot;markdown-toc-apa-itu-open-data&quot;&gt;Apa itu Open Data?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#open-dataset&quot; id=&quot;markdown-toc-open-dataset&quot;&gt;Open Dataset&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#kaggle&quot; id=&quot;markdown-toc-kaggle&quot;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#satu-data-indonesia&quot; id=&quot;markdown-toc-satu-data-indonesia&quot;&gt;Satu Data Indonesia&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#data-world&quot; id=&quot;markdown-toc-data-world&quot;&gt;Data World&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#knoema&quot; id=&quot;markdown-toc-knoema&quot;&gt;Knoema&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#datahubio&quot; id=&quot;markdown-toc-datahubio&quot;&gt;Datahub.io&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#information--computer-science-universitas-of-california-uci&quot; id=&quot;markdown-toc-information--computer-science-universitas-of-california-uci&quot;&gt;Information &amp;amp; Computer Science, Universitas of California (UCI)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#datagov&quot; id=&quot;markdown-toc-datagov&quot;&gt;Data.Gov&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Faktanya setiap hari kita menghasilkan berjuta data dan akhirnya dari banyaknya data tersebut hanya menjadi sampah jika tanpa diolah menghasilkan sebuah informasi baru.&lt;/p&gt;
 
@@ -195,13 +210,14 @@ karena orang yang kecanduan teknologi beda tipis loh dengan kecanduan narkoba. :
 
 &lt;p&gt;Tidak hanya itu, Dataset ini berguna dalam belajar mengolah data dengan mengimplementasikan Machine Learning dan Kamu dapat menggunakan python, karena python itu mudah.&lt;/p&gt;
 
+&lt;h2 id=&quot;open-dataset&quot;&gt;Open Dataset&lt;/h2&gt;
 &lt;p&gt;berikut listnya “&lt;strong&gt;Open Dataset Indonesia dan Global untuk Data Mining dengan Machine Learning di Python&lt;/strong&gt;” :&lt;/p&gt;
 
-&lt;h2 id=&quot;1-kaggle&quot;&gt;1. &lt;a href=&quot;https://Kaggle.com&quot;&gt;Kaggle&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;kaggle&quot;&gt;&lt;a href=&quot;https://Kaggle.com&quot;&gt;Kaggle&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Kaggle&lt;/strong&gt; adalah salah satu web untuk komunitas online para data scientis dan machine learning. kaggale dengan gratis membagikan data sets dan kita dapat dengan mudah menjelajahi data-data untuk pembelajaran machine learning, AI dan di kaggle ada sebuah kompetisi untuk pemecahan solusi dengan data science. Faktanya pada delapan maret 2017 kaggle diakuisisi dan kini milik google.
 Lihat : &lt;a href=&quot;https://www.kaggle.com/datasets&quot;&gt;Datasets Kaggle&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;2-satu-data-indonesia&quot;&gt;2. &lt;a href=&quot;https://data.go.id/&quot;&gt;Satu Data Indonesia&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;satu-data-indonesia&quot;&gt;&lt;a href=&quot;https://data.go.id/&quot;&gt;Satu Data Indonesia&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Satu data Indonesia&lt;/strong&gt; atau data.go.id adalah sebuah portal resmi dari pemerintah Indonesia terkait dengan data terbuka Indonesia yang terdiri atas dan tidak terbatas hanya Kementerian, lembaga pemerintahan, pemerintahan daerah, dan semua instansi lain yang terkait yang menghasilkan data yang berhubungan dengan Indonesia.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://data.go.id/persyaratan-penggunaan/&quot;&gt;Syarat Penggunaan Data&lt;/a&gt;&lt;/li&gt;
@@ -209,23 +225,23 @@ Lihat : &lt;a href=&quot;https://www.kaggle.com/datasets&quot;&gt;Datasets Kaggl
   &lt;li&gt;&lt;a href=&quot;http://data.jakarta.go.id/dataset&quot;&gt;Datasets Jakarta&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;3-data-world&quot;&gt;3. &lt;a href=&quot;https://data.world&quot;&gt;Data World&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;data-world&quot;&gt;&lt;a href=&quot;https://data.world&quot;&gt;Data World&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Data.world&lt;/strong&gt; adalah sebuahs web katalog pintar untuk data dan analisis. kamu dapat mencari data-data diseluruh dunia. dan lihat keterangannya ada status untuk data seperti datanya terbuka atau tidak.
 Lihat : &lt;a href=&quot;https://data.world/datasets/indonesia&quot;&gt;Datasets Data World Indonesia&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;4-knoema&quot;&gt;4. &lt;a href=&quot;https://knoema.com/&quot;&gt;Knoema&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;knoema&quot;&gt;&lt;a href=&quot;https://knoema.com/&quot;&gt;Knoema&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Knoema&lt;/strong&gt; adalah sebuah web untuk pengambilan keputusan. kerennya di Knoema adalah dapat memvisualisasikan data yang ada dengan menentukan sendiri hal-hal yang diperlukan. Terdapat beberapa produk untuk akses gratis, profesional dan enterprise. kamu harus daftar dan login terlebih dahulu untuk lebih jelasnya pada web knoema ini.
 Lihat : &lt;a href=&quot;http://knoema.com/atlas/topics/Indonesia/&quot;&gt;Knoema Datasets Indonesia&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;5-datahubio&quot;&gt;5. &lt;a href=&quot;https://datahub.io/&quot;&gt;Datahub.io&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;datahubio&quot;&gt;&lt;a href=&quot;https://datahub.io/&quot;&gt;Datahub.io&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Datahub&lt;/strong&gt; adalah web tentang publikasi data. kekurangannya adalah masih sedikit tersedianya data disini untuk akses yang gratis.
 Lihat : &lt;a href=&quot;https://datahub.io/search?q=Indonesia&quot;&gt;Datahub.io Datasets Indonesia&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;6-information--computer-science-universitas-of-california-uci&quot;&gt;6. &lt;a href=&quot;https://ics.uci.edu/&quot;&gt;Information &amp;amp; Computer Science, Universitas of California (UCI)&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;information--computer-science-universitas-of-california-uci&quot;&gt;&lt;a href=&quot;https://ics.uci.edu/&quot;&gt;Information &amp;amp; Computer Science, Universitas of California (UCI)&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;UCI&lt;/strong&gt; adalah sebuah kampus di irvine, california. Pada UCI terdapat fakultas Informasi dan Ilmu Komputer yang memberikan datasets secara gratis untuk penelitian dan pembelajaran pada bidang data science dan machine learning.
 Lihat : &lt;a href=&quot;https://archive.ics.uci.edu/ml/datasets.html&quot;&gt;Datasets UCI Machine Learning Repository&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;7-datagov&quot;&gt;7. &lt;a href=&quot;https://data.gov&quot;&gt;Data.Gov&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;datagov&quot;&gt;&lt;a href=&quot;https://data.gov&quot;&gt;Data.Gov&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Data.gov&lt;/strong&gt; adalah web referensi untuk pencarian data dalam penelitian, pengembangan dan memvisualisasikan data. Data.gov dikelola oleh U.S. General Services Administration, United States of America.
 Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;sort=views_recent+desc&amp;amp;as_sfid=AAAAAAXdgKHWtMUbunSzOyROvZi_vuhX-_n0uZeDjLalz12i9TZPetqud_B0W_KaRUe9s3Vvsn6hV60-jF8cdzWhfXpBtpw3LTCTVZXV9Gto5F_khwJrEnT2GrGuwdys94OEa4A%3D&amp;amp;as_fid=f2eda0633aa46cbee9efa926f5cf794e79c716f6&amp;amp;ext_location=&amp;amp;ext_bbox=&amp;amp;ext_prev_extent=-142.03125%2C2.4601811810210052%2C-59.0625%2C58.63121664342478&quot;&gt;Datasets Data.gov Indonesia&lt;/a&gt;&lt;/p&gt;
@@ -243,7 +259,7 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
     
       <item>
         <title>Belajar Visual Basic .Net</title>
-        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;V&lt;/span&gt;isual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.&lt;/p&gt;
+        <description>&lt;p&gt;Visual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.&amp;lt;/p&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Perkembangan VB akhirnya menjadi dot net yang dikenal dengan VB.Net mulai sedikit diminati akhir-akhir ini. namun faktanya dikampus VB.net ini masih dipelajari karena mayoritas penduduk Indonesia adalah pengguna Windows.&lt;/p&gt;
 
@@ -389,6 +405,13 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 &lt;p&gt;If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
 
 &lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#special-formatting&quot; id=&quot;markdown-toc-special-formatting&quot;&gt;Special formatting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#writing-code-blocks&quot; id=&quot;markdown-toc-writing-code-blocks&quot;&gt;Writing code blocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reference-lists&quot; id=&quot;markdown-toc-reference-lists&quot;&gt;Reference lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#full-html&quot; id=&quot;markdown-toc-full-html&quot;&gt;Full HTML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
 
