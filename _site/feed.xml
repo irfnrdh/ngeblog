@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Apa Aja!</description>
+    <description>Berbagi Kebaikan &amp; Motivasi</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Dec 2018 01:00:25 +0700</pubDate>
-    <lastBuildDate>Fri, 21 Dec 2018 01:00:25 +0700</lastBuildDate>
+    <pubDate>Fri, 21 Dec 2018 01:12:32 +0700</pubDate>
+    <lastBuildDate>Fri, 21 Dec 2018 01:12:32 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -204,7 +204,9 @@ karena orang yang kecanduan teknologi beda tipis loh dengan kecanduan narkoba. :
 
 &lt;h2 id=&quot;apa-itu-open-data&quot;&gt;Apa itu Open Data?&lt;/h2&gt;
 
-&lt;p&gt;Data terbuka atau open data adalah data yang memiliki kaidah “terbuka”, dapat digunakan secara bebas, dimanfaatkan, dan didistribusikan kembali oleh siapapun tanpa syarat kecuali dengan mengutip sumber, pemilik data. Definisi ini adalah definisi umum yang disadur dari Open Data Handbook yang dikeluarkan oleh OKFN (Open Knowledge Foundation Network). Anda bisa merujuk pada definisi lengkapnya di sini: &lt;a href=&quot;http://opendatahandbook.org/en/what-is-open-data/&quot;&gt;Open Data Handbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data terbuka atau open data adalah data yang memiliki kaidah “terbuka”, dapat digunakan secara bebas, dimanfaatkan, dan didistribusikan kembali oleh siapapun tanpa syarat kecuali dengan mengutip sumber, pemilik data.&lt;/p&gt;
+
+&lt;p&gt;Definisi ini adalah definisi umum yang disadur dari Open Data Handbook yang dikeluarkan oleh OKFN (Open Knowledge Foundation Network). Anda bisa merujuk pada definisi lengkapnya di sini: &lt;a href=&quot;http://opendatahandbook.org/en/what-is-open-data/&quot;&gt;Open Data Handbook&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Berikut ada beberapa referensi dataset yang dapat kamu gunakan untuk menjelajahi data sehingga kamu bisa menemukan informasi yang baru.&lt;/p&gt;
 
@@ -259,9 +261,15 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
     
       <item>
         <title>Belajar Visual Basic .Net</title>
-        <description>&lt;p&gt;Visual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.&amp;lt;/p&amp;gt;&lt;/p&gt;
+        <description>&lt;p&gt;Visual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.&lt;/p&gt;
 
 &lt;p&gt;Perkembangan VB akhirnya menjadi dot net yang dikenal dengan VB.Net mulai sedikit diminati akhir-akhir ini. namun faktanya dikampus VB.net ini masih dipelajari karena mayoritas penduduk Indonesia adalah pengguna Windows.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#web--blog&quot; id=&quot;markdown-toc-web--blog&quot;&gt;WEB &amp;amp; BLOG&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#video&quot; id=&quot;markdown-toc-video&quot;&gt;VIDEO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ebook&quot; id=&quot;markdown-toc-ebook&quot;&gt;EBOOK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Karena windowslah Visual Basic .Net dipelajari dan berikut ada beberapa list referensi untuk belajar visual basic .net dalam sepekan, berikut listnya :&lt;/p&gt;
 
@@ -400,11 +408,7 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
     
       <item>
         <title>Powerful things you can do with the Markdown editor</title>
-        <description>&lt;p&gt;There are lots of powerful things you can do with the Markdown editor&lt;/p&gt;
-
-&lt;p&gt;If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
-
-&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+        <description>&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!. As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#special-formatting&quot; id=&quot;markdown-toc-special-formatting&quot;&gt;Special formatting&lt;/a&gt;&lt;/li&gt;

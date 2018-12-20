@@ -8,9 +8,12 @@ image: assets/images/1.jpg
 featured: true
 
 ---
-Visual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.</p>
+Visual basic adalah bahasa pemrograman visual yang dikembangan oleh microsoft untuk software berbasis desktop disemua sistem operasi windows.
 
 Perkembangan VB akhirnya menjadi dot net yang dikenal dengan VB.Net mulai sedikit diminati akhir-akhir ini. namun faktanya dikampus VB.net ini masih dipelajari karena mayoritas penduduk Indonesia adalah pengguna Windows. 
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
 
 Karena windowslah Visual Basic .Net dipelajari dan berikut ada beberapa list referensi untuk belajar visual basic .net dalam sepekan, berikut listnya :
 
