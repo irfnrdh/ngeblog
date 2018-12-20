@@ -2,9 +2,9 @@
 name: AkuNgeblog
 description: Berbagi Kebaikan & Motivasi
 meta_description: "Berbagi Kebaikan & Motivasi"
-logo: 'assets/images/logo-akungeblog.png'
+logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 12
+paginate: 4
 baseurl: 
 permalink: /:title/
 email: 'boxsurel@gmail.com'
