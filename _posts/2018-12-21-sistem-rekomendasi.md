@@ -6,7 +6,7 @@ author: irfnrdh
 categories: [ Data Mining, Resource ]
 image: https://cdn.lynda.com/course/563080/563080-636356273912473145-16x9.jpg
 featured: false
-tags: rekomendasi
+tags: [hot, summer]
 ---
 
 A collection of resources for Recommender Systems (RecSys)
