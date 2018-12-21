@@ -13,6 +13,9 @@ tags: rekomendasi
 # competitive-recsys
 A collection of resources for Recommender Systems (RecSys)
 
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 # Recommendation Algorithms
 
 - Basic of Recommender Systems
