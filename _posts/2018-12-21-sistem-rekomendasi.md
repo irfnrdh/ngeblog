@@ -7,7 +7,6 @@ categories: [ Data Mining, Resource ]
 image: assets/images/4.jpg
 featured: false
 tags: rekomendasi
-
 ---
 
 # competitive-recsys
