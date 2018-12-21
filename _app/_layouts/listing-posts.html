@@ -1,0 +1,42 @@
+---
+layout: default
+title: Archive
+---
+
+<!-- Begin List Posts
+================================================== -->
+<section class="row recent-posts">
+   
+
+    <div class="col-md-12 col-lg-12">
+        <div class="section-title">
+            <h2><span>{{ page.type }} '{{ page.title }}'</span></h2>
+        </div>
+        <div class="masonrygrid row listrecent">
+
+            {% for post in page.posts %}
+
+            {% include postbox.html %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+
+
+
+<div class="section-title">
+            <h2><span>Tags</span></h2>
+        </div>
+{% capture temptags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+{% for temptag in sortedtemptags %}
+  {% assign tagitems = temptag | split: '#' %}
+  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+  <a class="btn btn-primary " href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+{% endfor %}

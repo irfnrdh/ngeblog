@@ -12,6 +12,19 @@ google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
+# Settings
+production: false
+plugins_dir:  ./_app/_plugins
+layouts_dir:  ./_app/_layouts
+includes_dir: ./_app/_includes
+
+# Pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+permalink: pretty
+
 # Front Matter SEO
 defaults:
   - scope:
@@ -19,24 +32,6 @@ defaults:
     values:
       image: /assets/images/5.jpg
       
-# Authors
-authors:
-  irfnrdh:
-    name: irfnrdh
-    display_name: irfnrdh
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: kang.fand@gmail.com
-    web: https://akungeblog.com
-    twitter: https://twitter.com/irfnrdh
-    description: "Part time artist, fulltime creator."
-  maverick:
-    name: maverick
-    display_name: maverick
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
 
 # Plugins
 plugins: 
@@ -45,6 +40,8 @@ plugins:
   - jekyll-feed
   - jekyll-toc
   - jekyll-seo-tag  
+
+
 
   
 # Archives
@@ -62,6 +59,20 @@ permalinks:
   year: '/archives/year/:year/'
   month: '/archives/month/:year-:month/'
   tag: '/archives/tag/:name/'
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: 'listing-posts'
+  permalinks:
+    category: '/category/:name/'
+
+# CONTENT
+exclude:
+  - README.md
+  - go.sh
+  - CNAME
+
 
 # Tagline
 tag_page_layout: tag_page

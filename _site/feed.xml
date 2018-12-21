@@ -5,9 +5,310 @@
     <description>Berbagi Kebaikan &amp; Motivasi</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Dec 2018 01:27:13 +0700</pubDate>
-    <lastBuildDate>Fri, 21 Dec 2018 01:27:13 +0700</lastBuildDate>
+    <pubDate>Fri, 21 Dec 2018 11:45:23 +0700</pubDate>
+    <lastBuildDate>Fri, 21 Dec 2018 11:45:23 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Referensi Belajar Sistem Rekomendasi</title>
+        <description>&lt;p&gt;A collection of resources for Recommender Systems (RecSys)&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#recommendation-algorithms&quot; id=&quot;markdown-toc-recommendation-algorithms&quot;&gt;Recommendation Algorithms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#public-available-datasets&quot; id=&quot;markdown-toc-public-available-datasets&quot;&gt;Public Available Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#open-sources&quot; id=&quot;markdown-toc-open-sources&quot;&gt;Open Sources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#common-evaluation-metric&quot; id=&quot;markdown-toc-common-evaluation-metric&quot;&gt;Common Evaluation Metric&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#related-github-links&quot; id=&quot;markdown-toc-related-github-links&quot;&gt;Related Github links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#textbooks&quot; id=&quot;markdown-toc-textbooks&quot;&gt;Textbooks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#online-courses&quot; id=&quot;markdown-toc-online-courses&quot;&gt;Online Courses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#recsys-related-competitions&quot; id=&quot;markdown-toc-recsys-related-competitions&quot;&gt;RecSys-related Competitions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tutorials&quot; id=&quot;markdown-toc-tutorials&quot;&gt;Tutorials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#articles&quot; id=&quot;markdown-toc-articles&quot;&gt;Articles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conferences&quot; id=&quot;markdown-toc-conferences&quot;&gt;Conferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;recommendation-algorithms&quot;&gt;Recommendation Algorithms&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Basic of Recommender Systems
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Recommender_system&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Nearest Neighbor Search
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://scikit-learn.org/stable/modules/neighbors.html&quot;&gt;sklearn.neighbors&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/erikbern/ann-benchmarks&quot;&gt;Benchmarks of approximate nearest neighbor libraries&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Classic Matrix Facotirzation
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.quuxlabs.com/blog/2010/09/matrix-factorization-a-simple-tutorial-and-implementation-in-python/&quot;&gt;Matrix Factorization: A Simple Tutorial and Implementation in Python&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf&quot;&gt;Matrix Factorization Techiques for Recommendaion Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Singular Value Decomposition (SVD)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Singular-value_decomposition&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SVD++
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.cs.rochester.edu/twiki/pub/Main/HarpSeminar/Factorization_Meets_the_Neighborhood-_a_Multifaceted_Collaborative_Filtering_Model.pdf&quot;&gt;Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Content-based CF / Context-aware CF
+    &lt;ul&gt;
+      &lt;li&gt;there are so many …&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Advanced Matrix Factorization
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf&quot;&gt;Probabilistic Matrix Factorization&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=2911489&quot;&gt;Fast Matrix Factorization for Online Recommendation with Implicit Feedback&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/4781121/&quot;&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=2959182&quot;&gt;Factorization Meets the Item Embedding: Regularizing Matrix Factorization with Item Co-occurrence&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Factorization Machine
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf&quot;&gt;Factorization Machines&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=2959134&quot;&gt;Field-aware Factorization Machines for CTR Prediction&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Sparse LInear Method (SLIM)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://glaros.dtc.umn.edu/gkhome/node/774&quot;&gt;SLIM: Sparse Linear Methods for Top-N Recommender Systems&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://glaros.dtc.umn.edu/gkhome/node/1192&quot;&gt;Global and Local SLIM&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Learning to Rank
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Learning_to_rank&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=1795167&quot;&gt;BPR: Bayesian personalized ranking from implicit feedback&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.thespermwhale.com/jaseweston/papers/wsabie-ijcai.pdf&quot;&gt;WSABIE: Scaling Up To Large Vocabulary Image Annotation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://proceedings.mlr.press/v38/chaudhuri15.pdf&quot;&gt;Top-1 Feedback&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.ee.columbia.edu/~ronw/pubs/recsys2013-kaos.pdf&quot;&gt;k-order statistic loss&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3015834&quot;&gt;VBPR: Visual Bayesian Personalized Ranking from Implicit Feedback&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cold-start
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://papers.nips.cc/paper/5004-deep-content-based-music-recommendation&quot;&gt;Deep content-based music recommendation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems&quot;&gt;DropoutNet: Addressing Cold Start in Recommender Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Network Embedding
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/chihming/awesome-network-embedding&quot;&gt;awesome-network-embedding&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1603.04259&quot;&gt;Item2vec&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3109889&quot;&gt;entity2rec&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Translation Embedding
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3109882&quot;&gt;Translation-based Recommendation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deep Learning
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://ai.google/research/pubs/pub45530&quot;&gt;Deep Neural Networks for YouTube Recommendations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1707.07435&quot;&gt;Deep Learning based Recommender System: A Survey and New Perspectives&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3052569&quot;&gt;Neural Collaborative Filtering&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.wanghao.in/CDL.htm&quot;&gt;Collaborative Deep Learning for Recommender Systems&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=2835837&quot;&gt;Collaborative Denoising Auto-Encoders for Top-N Recommender Systems&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3157143&quot;&gt;Collaborative recurrent autoencoder: recommend while learning to fill in the blanks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/tutorials/wide_and_deep&quot;&gt;TensorFlow Wide &amp;amp; Deep Learning&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://research.google.com/pubs/pub45530.html&quot;&gt;Deep Neural Networks for YouTube Recommendations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1804.10862&quot;&gt;Collaborative Memory Network for Recommendation Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;public-available-datasets&quot;&gt;Public Available Datasets&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://grouplens.org/&quot;&gt;GroupLens&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://grouplens.org/datasets/movielens/&quot;&gt;MovieLens&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://grouplens.org/datasets/hetrec-2011/&quot;&gt;HetRec2011&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://grouplens.org/datasets/wikilens/&quot;&gt;WikiLens&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://grouplens.org/datasets/book-crossing/&quot;&gt;Book-Crossing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://grouplens.org/datasets/jester/&quot;&gt;Jester&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://grouplens.org/datasets/eachmovie/&quot;&gt;EachMovie&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jmcauley.ucsd.edu/data/amazon/&quot;&gt;Amazon Product Data&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Books, Electronics, Movies, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://snap.stanford.edu/data/index.html&quot;&gt;SNAP Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dbis-nowplaying.uibk.ac.at/&quot;&gt;#nowplaying Dataset&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/index.html&quot;&gt;Last.fm Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://labrosa.ee.columbia.edu/millionsong/&quot;&gt;Million Song Dataset&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://baltrunas.info/research-menu/frappe&quot;&gt;Frappe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webscope.sandbox.yahoo.com/&quot;&gt;Yahoo! Webscope Program&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;music ratings, movie ratings, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.yelp.com/dataset/challenge&quot;&gt;Yelp Dataset Challenge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sidooms/MovieTweetings&quot;&gt;MovieTweetings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.org/details/201309_foursquare_dataset_umn&quot;&gt;Foursquare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jmcauley.ucsd.edu/data/epinions&quot;&gt;Epinions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jmcauley.ucsd.edu/data/googlelocal/&quot;&gt;Google Local&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;location, phone number, time, rating, addres, GPS, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wanghao.in/CDL.htm&quot;&gt;CiteUlike-t&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.occamslab.com/petricek/data/&quot;&gt;LibimSeTi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.comp.nus.edu.sg/~sugiyama/SchPaperRecData.html&quot;&gt;Scholarly Paper Recommendation Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a&quot;&gt;Netflix Prize Data Set&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.librec.net/datasets.html&quot;&gt;FilmTrust,CiaoDVD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://archive.ics.uci.edu/ml/datasets/Entree+Chicago+Recommendation+Data&quot;&gt;Chicago Entree&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://socialcomputing.asu.edu/datasets/Douban&quot;&gt;Douban&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kde.cs.uni-kassel.de/bibsonomy/dumps&quot;&gt;BibSonomy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dai-labor.de/en/competence_centers/irml/datasets/&quot;&gt;Delicious&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.org/details/201309_foursquare_dataset_umn&quot;&gt;Foursquare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mac.citi.sinica.edu.tw/LJ#.Ww_hbFOFNE5&quot;&gt;MACLab LJ Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Kaggle::Datasets
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/tamber/steam-video-games/data&quot;&gt;Steam Video Games&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/CooperUnion/anime-recommendations-database&quot;&gt;Anime Recommendations Database&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;open-sources&quot;&gt;Open Sources&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.libfm.org/&quot;&gt;libFM&lt;/a&gt; - Factorization Machine Library&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ibayer/fastFM&quot;&gt;fastFM&lt;/a&gt; - A Library for Factorization Machines&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.csie.ntu.edu.tw/~cjlin/libffm/&quot;&gt;LIBFFM&lt;/a&gt; - A Library for Field-aware Factorization Machines&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lyst/lightfm&quot;&gt;lightfm&lt;/a&gt; - A Python implementation of LightFM, a hybrid recommendation algorithm&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.csie.ntu.edu.tw/~cjlin/libmf/&quot;&gt;LIBMF&lt;/a&gt; - A Matrix-factorization Library for Recommender Systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.librec.net/index.html&quot;&gt;LibRec&lt;/a&gt; - A Leading Java Library for Recommender Systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lenskit.org/&quot;&gt;LensKit&lt;/a&gt; - Open-Source Tools for Recommender Systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/NicolasHug/Surprise&quot;&gt;Surprise&lt;/a&gt; - A Python scikit building and analyzing recommender systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mymedialite.net/index.html&quot;&gt;MyMediaLite Recommender System Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/quora/qmf&quot;&gt;QMF&lt;/a&gt; - A matrix factorization library&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cnclabs/proNet-core&quot;&gt;proNet-core&lt;/a&gt; - A general-purpose network embedding framework: pair-wise representations optimization Network&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rival.recommenders.net/&quot;&gt;Rival&lt;/a&gt; - An open source Java toolkit for recommender system evaluation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jfkirk/tensorrec&quot;&gt;TensorRec&lt;/a&gt; - A TensorFlow recommendation algorithm and framework in Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://openrec.ai/index.html&quot;&gt;OpenRec&lt;/a&gt; - An open-source and modular library for neural network-inspired recommendation algorithms&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/maciejkula/spotlight&quot;&gt;spotlight&lt;/a&gt; - Deep recommender models using PyTorch.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/amoussawi/recoder&quot;&gt;Recoder&lt;/a&gt; - Large scale training of factorization models for Collaborative Filtering with PyTorch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;common-evaluation-metric&quot;&gt;Common Evaluation Metric&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Precision and Recall
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Precision_and_recall&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mean Average Precision (MAP)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Information_retrieval#Mean_average_precision&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ROC Curve / Area under the curve
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Receiver_operating_characteristic&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Normalized Discounted Cumulative Gain (NDCG)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Discounted_cumulative_gain&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mean Absolute Error (MAE)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mean_absolute_error&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Root Mean Square Error (RMSE)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Root-mean-square_deviation&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Novelty and Diversity
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=1944341&quot;&gt;Novelty and Diversity in Top-N Recommendation – Analysis and Evaluation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Beyond accuracy
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=1864761&quot;&gt;Beyond accuracy: evaluating recommender systems by coverage and serendipity&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;related-github-links&quot;&gt;Related Github links&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/grahamjenson/list_of_recommender_systems&quot;&gt;List of Recommender Systems&lt;/a&gt; - A List of Recommender Systems and Resources&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/entaroadun/1653794&quot;&gt;Recommendation and Ratings Public Data Sets For Machine Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/daicoolb/RecommenderSystem-Paper&quot;&gt;RecommenderSystem-Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;textbooks&quot;&gt;Textbooks&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596529321.do&quot;&gt;Programming Collective Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;online-courses&quot;&gt;Online Courses&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh-tw.coursera.org/specializations/recommender-systems&quot;&gt;Recommender Systems Specialization&lt;/a&gt;, University of Minnesota&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh-tw.coursera.org/learn/recommender-systems-introduction&quot;&gt;Introduction to Recommender Systems: Non-Personalized and Content-Based&lt;/a&gt;, University of Minnesota&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;recsys-related-competitions&quot;&gt;RecSys-related Competitions&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; - product recommendations, hotel recommendations, job recommendations, etc.&lt;/li&gt;
+  &lt;li&gt;ACM RecSys Challenge&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wsdm-cup-2018.kkbox.events/&quot;&gt;WSDM Cup 2018&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/c/msdchallenge&quot;&gt;Million Song Dataset Challenge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netflixprize.com/&quot;&gt;Netflix Prize&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;RecSys tutorials
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://recsys.acm.org/recsys14/tutorials/&quot;&gt;2014&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://recsys.acm.org/recsys15/tutorials/&quot;&gt;2015&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://recsys.acm.org/recsys16/tutorials/&quot;&gt;2016&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://recsys.acm.org/recsys17/tutorials/&quot;&gt;2017&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/xamat/kdd-2014-tutorial-the-recommender-problem-revisited&quot;&gt;Kdd 2014 Tutorial - the recommender problem revisited&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.quuxlabs.com/blog/2010/09/matrix-factorization-a-simple-tutorial-and-implementation-in-python/&quot;&gt;Matrix Factorization: A Simple Tutorial and Implementation in Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;conferences&quot;&gt;Conferences&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://recsys.acm.org/&quot;&gt;RecSys – ACM Recommender Systems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 21 Dec 2018 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/data%20mining/resource/2018/12/21/sistem-rekomendasi/</link>
+        <guid isPermaLink="true">http://localhost:4000/data%20mining/resource/2018/12/21/sistem-rekomendasi/</guid>
+        
+        <category>hot</category>
+        
+        <category>summer</category>
+        
+        
+        <category>Data Mining</category>
+        
+        <category>Resource</category>
+        
+      </item>
     
       <item>
         <title>Powerful things you can do with the Markdown editor</title>
@@ -69,8 +370,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Dec 2018 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/percobaan/</link>
-        <guid isPermaLink="true">http://localhost:4000/percobaan/</guid>
+        <link>http://localhost:4000/jekyll/tutorial/2018/12/20/percobaan/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/12/20/percobaan/</guid>
         
         <category>jekyll</category>
         
@@ -167,8 +468,8 @@ karena orang yang kecanduan teknologi beda tipis loh dengan kecanduan narkoba. :
 &lt;p&gt;Salam Damai, Dari Dalam. irfnrdh&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Dec 2018 20:40:00 +0700</pubDate>
-        <link>http://localhost:4000/kecanduan-teknologi-lebih-bahaya-dari-narkoba/</link>
-        <guid isPermaLink="true">http://localhost:4000/kecanduan-teknologi-lebih-bahaya-dari-narkoba/</guid>
+        <link>http://localhost:4000/belajar/2018/12/15/kecanduan-teknologi-lebih-bahaya-dari-narkoba/</link>
+        <guid isPermaLink="true">http://localhost:4000/belajar/2018/12/15/kecanduan-teknologi-lebih-bahaya-dari-narkoba/</guid>
         
         
         <category>belajar</category>
@@ -251,8 +552,8 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 &lt;p&gt;Demikian hasil ulasan dari saya irfnrdh, semoga bermanfaat &lt;code class=&quot;highlighter-rouge&quot;&gt;^_^&lt;/code&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Dec 2018 17:00:00 +0700</pubDate>
-        <link>http://localhost:4000/dataset/</link>
-        <guid isPermaLink="true">http://localhost:4000/dataset/</guid>
+        <link>http://localhost:4000/belajar/2018/12/08/dataset/</link>
+        <guid isPermaLink="true">http://localhost:4000/belajar/2018/12/08/dataset/</guid>
         
         
         <category>belajar</category>
@@ -324,8 +625,8 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Dec 2018 15:12:11 +0700</pubDate>
-        <link>http://localhost:4000/belajar-visual-basic-net/</link>
-        <guid isPermaLink="true">http://localhost:4000/belajar-visual-basic-net/</guid>
+        <link>http://localhost:4000/belajar/2018/12/08/belajar-visual-basic-net/</link>
+        <guid isPermaLink="true">http://localhost:4000/belajar/2018/12/08/belajar-visual-basic-net/</guid>
         
         
         <category>belajar</category>
@@ -339,8 +640,8 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/we-all-wait-for-summer/</link>
-        <guid isPermaLink="true">http://localhost:4000/we-all-wait-for-summer/</guid>
+        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/we-all-wait-for-summer/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/we-all-wait-for-summer/</guid>
         
         
         <category>Jekyll</category>
@@ -365,8 +666,8 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/tree-of-codes/</link>
-        <guid isPermaLink="true">http://localhost:4000/tree-of-codes/</guid>
+        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/tree-of-codes/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/tree-of-codes/</guid>
         
         
         <category>Jekyll</category>
@@ -390,8 +691,8 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/red-riding/</link>
-        <guid isPermaLink="true">http://localhost:4000/red-riding/</guid>
+        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/red-riding/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/red-riding/</guid>
         
         <category>feminism</category>
         
@@ -453,8 +754,8 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/powerful-things-markdown-editor/</link>
-        <guid isPermaLink="true">http://localhost:4000/powerful-things-markdown-editor/</guid>
+        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/powerful-things-markdown-editor/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/powerful-things-markdown-editor/</guid>
         
         <category>feminism</category>
         
@@ -486,42 +787,8 @@ Lihat : &lt;a href=&quot;https://catalog.data.gov/dataset?q=Indonesia&amp;amp;so
 &lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/is-intelligence-enough/</link>
-        <guid isPermaLink="true">http://localhost:4000/is-intelligence-enough/</guid>
-        
-        <category>feminism</category>
-        
-        <category>anti-capitalism</category>
-        
-        <category>witchcraft</category>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Markdown Example</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated. Something.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 11 Jan 2018 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/markup-example/</link>
-        <guid isPermaLink="true">http://localhost:4000/markup-example/</guid>
+        <link>http://localhost:4000/jekyll/tutorial/2018/01/12/is-intelligence-enough/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/tutorial/2018/01/12/is-intelligence-enough/</guid>
         
         <category>feminism</category>
         
