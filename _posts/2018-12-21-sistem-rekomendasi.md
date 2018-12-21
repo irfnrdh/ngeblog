@@ -4,7 +4,7 @@ title:  "Referensi Belajar Sistem Rekomendasi"
 toc: true
 author: irfnrdh
 categories: [ Data Mining, Resource ]
-image: assets/images/4.jpg
+image: https://cdn.lynda.com/course/563080/563080-636356273912473145-16x9.jpg
 featured: false
 tags: rekomendasi
 ---
